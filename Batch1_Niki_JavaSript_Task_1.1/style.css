@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    margin: 0;
+    background-image: linear-gradient(95.2deg, rgb(187, 199, 235) 26.8%, rgb(152, 177, 241) 64%);
+}
+
+.addBtn {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 3px 40px;
+    background: rgb(107, 115, 201);
+    border: 0;
+    color: white;
+}
+
+.addBtn:hover {
+    background: white;
+    color: rgb(83, 93, 204);
+    transition: all 0.7s;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.reloadBtn {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 3px 40px;
+    background: rgb(107, 115, 201);
+    border: 0;
+    color: white;
+}
+
+.reloadBtn:hover {
+    background: white;
+    color: rgb(83, 93, 204);
+    transition: all 0.7s;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input {
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    margin: 10px;
+    outline: 0;
+    width: 70%;
+}
+
+table {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.alert {
+    color: rgb(197, 49, 49);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.minusButton {
+    background: rgba(121, 130, 228, 0.871);
+    font-size: 25px;
+    font-weight: 700;
+    border: 0;
+    color: white;
+    width: 70%;
+}
+
+.minusButton:hover {
+    background: white;
+    color: rgb(83, 93, 204);
+    border: 0;
+    transition: all 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+th {
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: rgb(55, 64, 142);
+}
+
+@media screen and (max-width: 200px) {
+    input {
+        width: 100%;
+    }
+}
